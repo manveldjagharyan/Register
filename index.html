@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp | SignIn</title>
+    <link rel="icon" href="./wplogo_transparent_xlg.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <video id="video" loop autoplay muted>
+        <source src="./2324166-uhd_3840_2160_25fps.mp4" type="video/mp4">
+    </video>
+
+    <div id="buttons">
+        <button id="signup_forward">Sign In</button>
+        <button id="signin_forward">Sign Up</button>
+    </div>
+
+    <div id="signUp">
+        <h1>Sign Up</h1>
+
+        <div id="form_signUp">
+            <input type="text" placeholder="First Name" id="firstName">
+            <input type="text" placeholder="Last Name" id="lastName">
+            <input type="email" placeholder="Email" id="email">
+            <input type="password" placeholder="Password" id="password">
+
+            <input type="button" value="Submit" onclick="Register()">
+        </div>
+    </div>
+
+    <div id="signIn">
+        <h1>Sign In</h1>
+
+        <div id="form_signIn">
+            <input type="text" placeholder="First Name" id="loginfirstName">
+            <input type="password" placeholder="Password" id="loginpassword">
+
+            <input type="button" value="Submit" onclick="login()">
+        </div>
+    </div>
+
+
+    <div id="userData">
+        <h1 id="firstNameDisplay"></h1>
+        <h2 id="lastNameDisplay"></h2>
+        <h3 id="emailDisplay"></h3>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
