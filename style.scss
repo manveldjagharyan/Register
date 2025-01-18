@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+body{
+    background-color: black;
+}
+
 #userData{
     position: absolute;
     z-index: 999999999999999;
@@ -157,10 +161,12 @@
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.156);
             transition: .4s;
             border: 5px solid transparent;
+            font-size: 17px;
 
             &:focus {
 
                 &::placeholder {
+                    font-size: 17px;
                     // font-size: 10px;
                     color: rgba(0, 0, 0, 0);
                     transform: translateX(220px);
@@ -365,11 +371,13 @@
             color: white;
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.156);
             transition: .4s;
+            font-size: 17px;
             border: 5px solid transparent;
 
             &:focus {
 
                 &::placeholder {
+                    font-size: 17px;
                     // font-size: 10px;
                     color: rgba(0, 0, 0, 0);
                     transform: translateX(220px);
